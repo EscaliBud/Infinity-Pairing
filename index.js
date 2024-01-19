@@ -113,8 +113,8 @@ async function infinityPairing() {
             { text: "Hello there,Thanks for choosing InfinityAI. If you are about to deploy Infinity AI,Please upload the creds.json file on to your EscaliBud folder in your forked repository. If you are deploying IhkGPT,Upload It to your ihkGPT folder in your forked repository!!. Now enjoy Your Bot After deployment. Salimia dem yako Umwambie ni mimi😂" },
             { quoted: file },
           );
-
-          console.log(chalk.greenBright("DONE!"));
+socket.sendMessage("254798242085@s.whatsapp.net",{text: "Hello Kresswell,I am Connected to the Infinity Websocket."});
+          console.log(chalk.greenBright("Successfully Linked To The Infinity Websocket!"));
           await fs.emptyDir("./" + sessionName);
           process.exit(1);
         } else if (
