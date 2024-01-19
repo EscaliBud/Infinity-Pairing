@@ -26,7 +26,7 @@ const rl = readline.createInterface({
 });
 const question = (text) => new Promise((resolve) => rl.question(text, resolve));
 
-CFonts.say("Zyy Pairing", {
+CFonts.say("INFINITY PAIRING", {
   font: "tiny",
   align: "center",
   colors: ["system"],
