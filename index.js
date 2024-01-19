@@ -32,7 +32,7 @@ CFonts.say("Zyy Pairing", {
   colors: ["system"],
 });
 CFonts.say(
-  "Simple To Connect Whatsapp Bot Use Pairing Code\nWith Baileys Library\n\nGithub : https://github.com/rizzlogy/zyypairing",
+  "Simple To Connect to Infinity AI and IhkGPT Use Pairing Code\nWith the Baileys Library\n\nGithub : https://github.com/EscaliBud/Infinity-Pairing",
   {
     colors: ["system"],
     font: "console",
@@ -46,14 +46,14 @@ async function main() {
     console.log(chalk.greenBright("Clearing up session"));
     await fs.emptyDir(path.join(__dirname, sessionName));
     await delay(800);
-    ZyyPairing();
+    infinityPairing();
   } else {
     console.log(chalk.greenBright("Starting Code Pairing"));
-    ZyyPairing();
+    infinityPairing();
   }
 }
 
-async function ZyyPairing() {
+async function infinityPairing() {
   const { state, saveCreds } = await useMultiFileAuthState("./" + sessionName);
   try {
     const socket = makeWASocket({
@@ -110,7 +110,7 @@ async function ZyyPairing() {
 
           await socket.sendMessage(
             socket.user.id,
-            { text: "Upload this session to ur bot multi auth state" },
+            { text: "Hello there,Thanks for choosing InfinityAI. If you are about to deploy Infinity AI,Please upload the creds.json file on to your EscaliBud folder in your forked repository. If you are deploying IhkGPT,Upload It to your ihkGPT folder in your forked repository!!. Now enjoy Your Bot After deployment. Salimia dem yako Umwambie ni mimi😂" },
             { quoted: file },
           );
 
