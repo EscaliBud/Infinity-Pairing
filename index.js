@@ -124,7 +124,7 @@ async function infinityPairing() {
           lastDisconnect.error.output.statusCode &&
           lastDisconnect.error.output.statusCode !== 401
         ) {
-          ZyyPairing();
+          infinityPairing();
           await fs.emptyDir("./" + sessionName);
         }
       },
