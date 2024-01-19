@@ -1,5 +1,5 @@
 {
-  "name": "ZyyPairing",
+  "name": "Infinity-Pairing",
   "version": "1.0.0",
   "description": "Connect Whatsapp With Baileys Code Pairing",
   "main": "index.js",
@@ -13,9 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rizzlogy/zyypairing.git"
+    "url": "git+https://github.com/EscaliBud/Infinity-Pairing.git"
   },
-  "author": "RizzyFuzz",
+  "author": "Kresswell",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -28,7 +28,7 @@
     "pino": "^8.1.0"
   },
   "bugs": {
-    "url": "https://github.com/rizzlogy/zyypairing/issues"
+    "url": "https://github.com/EscaliBud/Infinity-Pairing/issues"
   },
-  "homepage": "https://github.com/rizzlogy/zyypairing#readme"
+  "homepage": "https://github.com/EscaliBud/Infinity-Pairing#readme"
 }
